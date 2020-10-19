@@ -4,6 +4,7 @@ Midlleware-TV
 Install Midlleware for Ubuntu 18.04 LTS
 
 1-Install Main Server
+
 apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; wget https://raw.githubusercontent.com/rmartinsfer/middleware/main/settinngs.py ; sudo python install.py
 
 2-Update Middleware
