@@ -5,6 +5,8 @@ Install Midlleware for Ubuntu 18.04 LTS
 
 1-Install Main Server
 
+apt-get update && apt-get upgrade -y && sudo apt-get install mysql-server -y && sudo apt-get install python -y && sudo apt install apache2 -y && sudo apt-get install libxslt1-dev -y && sudo apt-get install libgeoip-dev -y && apt-get update && apt-get upgrade -y
+
 apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; wget https://raw.githubusercontent.com/rmartinsfer/middleware/main/install.py ; sudo python install.py
 
 2-Update Middleware
